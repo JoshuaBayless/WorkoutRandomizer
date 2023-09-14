@@ -13,7 +13,7 @@ struct WorkoutRandomizerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ModeSelectView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

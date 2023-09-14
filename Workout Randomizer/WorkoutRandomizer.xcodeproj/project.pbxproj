@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B6CB38252AB27F1E005C67AC /* WorkoutRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB38242AB27F1E005C67AC /* WorkoutRandomizerApp.swift */; };
-		B6CB38272AB27F1E005C67AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB38262AB27F1E005C67AC /* ContentView.swift */; };
+		B6CB38272AB27F1E005C67AC /* ModeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB38262AB27F1E005C67AC /* ModeSelectView.swift */; };
 		B6CB38292AB27F1F005C67AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CB38282AB27F1F005C67AC /* Assets.xcassets */; };
 		B6CB382C2AB27F1F005C67AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CB382B2AB27F1F005C67AC /* Preview Assets.xcassets */; };
 		B6CB382E2AB27F1F005C67AC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB382D2AB27F1F005C67AC /* Persistence.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		B6CB38212AB27F1E005C67AC /* Workout Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Randomizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CB38242AB27F1E005C67AC /* WorkoutRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRandomizerApp.swift; sourceTree = "<group>"; };
-		B6CB38262AB27F1E005C67AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6CB38262AB27F1E005C67AC /* ModeSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectView.swift; sourceTree = "<group>"; };
 		B6CB38282AB27F1F005C67AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6CB382B2AB27F1F005C67AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6CB382D2AB27F1F005C67AC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				B6CB38242AB27F1E005C67AC /* WorkoutRandomizerApp.swift */,
-				B6CB38262AB27F1E005C67AC /* ContentView.swift */,
+				B6CB38262AB27F1E005C67AC /* ModeSelectView.swift */,
 				B6CB38282AB27F1F005C67AC /* Assets.xcassets */,
 				B6CB382D2AB27F1F005C67AC /* Persistence.swift */,
 				B6CB382F2AB27F1F005C67AC /* Workout_Randomizer.xcdatamodeld */,
@@ -240,7 +240,7 @@
 			files = (
 				B6CB38312AB27F1F005C67AC /* Workout_Randomizer.xcdatamodeld in Sources */,
 				B6CB382E2AB27F1F005C67AC /* Persistence.swift in Sources */,
-				B6CB38272AB27F1E005C67AC /* ContentView.swift in Sources */,
+				B6CB38272AB27F1E005C67AC /* ModeSelectView.swift in Sources */,
 				B6CB38252AB27F1E005C67AC /* WorkoutRandomizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
