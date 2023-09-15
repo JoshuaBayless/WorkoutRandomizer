@@ -10,14 +10,16 @@ import CoreData
 
 struct ModeSelectView: View {
     
+    @State var displayWorkoutSetupView: Bool = false
+    
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 0) {
                 NavigationLink {
                     Text("FreestyleView")
                 } label: {
                     ZStack {
-                        RoundedRectangle(cornerRadius: 10)
+                        RoundedRectangle(cornerRadius: 0)
                             .ignoresSafeArea(.all)
                             .foregroundColor(.blue)
                         VStack {
@@ -30,23 +32,26 @@ struct ModeSelectView: View {
                         .foregroundColor(.black)
                     }
                 }
-                NavigationLink {
-                    Text("WorkoutView")
+                Button {
+                    displayWorkoutSetupView.toggle()
                 } label: {
                     ZStack {
-                        RoundedRectangle(cornerRadius: 10)
+                        RoundedRectangle(cornerRadius: 0)
                             .ignoresSafeArea(.all)
                             .foregroundColor(.red)
                         VStack {
                             Text("Workout")
                                 .padding(.bottom)
                                 .font(.headline)
-                            Text("Select your template, interval, and how many rounds you want to workout for and have a training circut right at your fingertips")
+                            Text("Select your template, interval, and how many rounds you want to workout for and have a new training circut right at your fingertips")
                                 .padding(.horizontal)
                                 .font(.footnote)
                         }
                         .foregroundColor(.black)
                     }
+                }
+                .popover(isPresented: $displayWorkoutSetupView) {
+                    Text("WorkoutView")
                 }
             }
         }
