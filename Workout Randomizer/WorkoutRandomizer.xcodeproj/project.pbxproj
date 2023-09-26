@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63F9C792AC24CC400AD19B3 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F9C782AC24CC400AD19B3 /* SpinnerView.swift */; };
+		B63F9C7C2AC2512A00AD19B3 /* Color +.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F9C7B2AC2512A00AD19B3 /* Color +.swift */; };
+		B63F9C7E2AC2548000AD19B3 /* SpinnerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F9C7D2AC2548000AD19B3 /* SpinnerSection.swift */; };
+		B63F9C802AC256BE00AD19B3 /* SpinnerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F9C7F2AC256BE00AD19B3 /* SpinnerTestView.swift */; };
 		B6CB38252AB27F1E005C67AC /* WorkoutRandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB38242AB27F1E005C67AC /* WorkoutRandomizerApp.swift */; };
 		B6CB38272AB27F1E005C67AC /* ModeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB38262AB27F1E005C67AC /* ModeSelectView.swift */; };
 		B6CB38292AB27F1F005C67AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CB38282AB27F1F005C67AC /* Assets.xcassets */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63F9C782AC24CC400AD19B3 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		B63F9C7B2AC2512A00AD19B3 /* Color +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color +.swift"; sourceTree = "<group>"; };
+		B63F9C7D2AC2548000AD19B3 /* SpinnerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerSection.swift; sourceTree = "<group>"; };
+		B63F9C7F2AC256BE00AD19B3 /* SpinnerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerTestView.swift; sourceTree = "<group>"; };
 		B6CB38212AB27F1E005C67AC /* Workout Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Randomizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CB38242AB27F1E005C67AC /* WorkoutRandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRandomizerApp.swift; sourceTree = "<group>"; };
 		B6CB38262AB27F1E005C67AC /* ModeSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectView.swift; sourceTree = "<group>"; };
@@ -69,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B63F9C772AC24CA400AD19B3 /* SpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				B63F9C782AC24CC400AD19B3 /* SpinnerView.swift */,
+				B63F9C7D2AC2548000AD19B3 /* SpinnerSection.swift */,
+				B63F9C7F2AC256BE00AD19B3 /* SpinnerTestView.swift */,
+			);
+			path = SpinnerView;
+			sourceTree = "<group>";
+		};
 		B6ADB51C2AB3A2310029DB20 /* ModeSelectView */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +98,7 @@
 		B6ADB51D2AB3A2540029DB20 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B63F9C7B2AC2512A00AD19B3 /* Color +.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -105,6 +124,7 @@
 		B6CB38232AB27F1E005C67AC /* Workout Randomizer */ = {
 			isa = PBXGroup;
 			children = (
+				B63F9C772AC24CA400AD19B3 /* SpinnerView */,
 				B6CB38242AB27F1E005C67AC /* WorkoutRandomizerApp.swift */,
 				B6ADB51D2AB3A2540029DB20 /* Extensions */,
 				B6ADB51C2AB3A2310029DB20 /* ModeSelectView */,
@@ -254,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63F9C7C2AC2512A00AD19B3 /* Color +.swift in Sources */,
 				B6CB38312AB27F1F005C67AC /* Workout_Randomizer.xcdatamodeld in Sources */,
+				B63F9C802AC256BE00AD19B3 /* SpinnerTestView.swift in Sources */,
+				B63F9C7E2AC2548000AD19B3 /* SpinnerSection.swift in Sources */,
+				B63F9C792AC24CC400AD19B3 /* SpinnerView.swift in Sources */,
 				B6CB382E2AB27F1F005C67AC /* Persistence.swift in Sources */,
 				B6CB38272AB27F1E005C67AC /* ModeSelectView.swift in Sources */,
 				B6CB38252AB27F1E005C67AC /* WorkoutRandomizerApp.swift in Sources */,
