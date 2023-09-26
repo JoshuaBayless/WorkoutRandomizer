@@ -11,6 +11,7 @@ import CoreData
 struct ModeSelectView: View {
     
     @State var displayWorkoutSetupView: Bool = false
+    @State var displaySpinnerView: Bool = false
     
     var body: some View {
         NavigationView {
@@ -52,6 +53,23 @@ struct ModeSelectView: View {
                 }
                 .popover(isPresented: $displayWorkoutSetupView) {
                     Text("WorkoutView")
+                }
+            }
+            .toolbar {
+                Button {
+                    displaySpinnerView.toggle()
+                } label: {
+                    HStack {
+                        Image(systemName: "square.and.pencil")
+                            .foregroundColor(.white)
+                        Text("Spinner View")
+                            .foregroundColor(.white)
+                    }
+                    
+                    .interactiveDismissDisabled()
+                }
+                .popover(isPresented: $displaySpinnerView) {
+                    SpinnerTestView()
                 }
             }
         }
