@@ -60,7 +60,7 @@ struct ModeSelectView: View {
                     displaySpinnerView.toggle()
                 } label: {
                     HStack {
-                        Image(systemName: "square.and.pencil")
+                        Image(systemName: "line.3.crossed.swirl.circle.fill")
                             .foregroundColor(.white)
                         Text("Spinner View")
                             .foregroundColor(.white)
